@@ -33,7 +33,6 @@ artifacts:
   files:
     - .env
     - appspec.yml
-    - node_modules/**/*
     - dist/**
     - scripts/*
     - package.json
