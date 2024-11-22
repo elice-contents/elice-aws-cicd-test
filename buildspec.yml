@@ -31,6 +31,7 @@ phases:
 
 artifacts:
   files:
+    - .env
     - appspec.yml
     - dist/**
     - scripts/*
