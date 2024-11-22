@@ -35,6 +35,8 @@ artifacts:
     - appspec.yml
     - dist/**
     - scripts/*
+    - package.json
+    - package-lock.json
   discard-paths: yes
 
 cache:
