@@ -6,4 +6,4 @@ if [ -n "$PID" ]; then
 fi
 
 # 새 애플리케이션 시작
-nohup node index.js > /dev/null 2>&1 &
+nohup node /home/ec2-user/build/index.js > /dev/null 2>&1 &
