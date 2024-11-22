@@ -22,9 +22,6 @@ phases:
       - echo "Build started on `date`"
       - npm run build
       - echo "Build completed on `date`"
-      - echo "Installing dependencies....""
-      - npm install --production
-      - echo "Installation complete"
 
   post_build:
     commands:
