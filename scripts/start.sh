@@ -7,5 +7,5 @@ fi
 
 # 새 애플리케이션 시작
 cd /home/ec2-user/build
-npm i --production
+npm install --production
 nohup node /home/ec2-user/build/index.js > /dev/null 2>&1 &
